@@ -1,0 +1,60 @@
+{
+  "tasks": [
+    {
+      "id": "Research",
+      "duration": 3,
+      "dependsOn": []
+    },
+    {
+      "id": "Scope",
+      "duration": 2,
+      "dependsOn": [
+        "Research"
+      ]
+    },
+    {
+      "id": "Design",
+      "duration": 5,
+      "dependsOn": [
+        "Scope"
+      ]
+    },
+    {
+      "id": "Data",
+      "duration": 4,
+      "dependsOn": [
+        "Scope"
+      ]
+    },
+    {
+      "id": "Build",
+      "duration": 8,
+      "dependsOn": [
+        "Design",
+        "Data"
+      ]
+    },
+    {
+      "id": "Review",
+      "duration": 3,
+      "dependsOn": [
+        "Build"
+      ]
+    },
+    {
+      "id": "Docs",
+      "duration": 4,
+      "dependsOn": [
+        "Data"
+      ]
+    },
+    {
+      "id": "Launch",
+      "duration": 1,
+      "dependsOn": [
+        "Review",
+        "Docs"
+      ]
+    }
+  ]
+}

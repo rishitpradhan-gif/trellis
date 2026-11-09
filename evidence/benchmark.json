@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "mode": "local single-process engine; not hosted concurrency test",
+  "tasks": 50000,
+  "edges": 199990,
+  "duration": 50000,
+  "milliseconds": 176,
+  "node": "v22.17.1"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "http_routes": [
+    "/",
+    "/worker.js",
+    "/core.mjs",
+    "/openapi.json",
+    "/api/plan",
+    "/downloads/trellis-api.zip"
+  ],
+  "downloaded_bundle_tests": "passed",
+  "zip_sha256": "ea8427052cb0f2a14263b2dab56cf21b0cdcf1a86604b7547c0841f90fafb511",
+  "browser_automation": "unavailable: executor rejects symlinked workspace root"
+}
